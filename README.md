@@ -60,13 +60,13 @@ Also, feel free to check the [Aave docs](https://docs.aave.com/developers/the-co
 2. Get some WETH
 
 ```
-brownie run scripts/get_weth.py --network kovan
+brownie run scripts/get_weth.py --network goerli
 ```
 
 3. Run the script!
 
 ```
-brownie run scripts/aave_borrow.py --network kovan
+brownie run scripts/aave_borrow.py --network goerli
 ```
 
 # Quickstart - mainnet-fork
